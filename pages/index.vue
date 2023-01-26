@@ -1,13 +1,22 @@
 <template>
-  <h1 class="line-clamp-2">Test</h1>
+  <div class="management-page">
+    <section>
+      <div class="block-content items-center">
+        <h1>We are under construction 👷🏼‍♂️</h1>
+        <p class="text-white text-opacity-80 mt-2">
+          <i>Please keep in touch — <a href="https://www.facebook.com/upskillux" target="_blank">Upskill UX</a></i>
+        </p>
+      </div>
+    </section>
+  </div>
 </template>
 
-<script lang="ts">
-import { defineComponent } from 'vue'
+<style lang="scss">
+body {
+  @apply bg-primary;
+}
 
-export default defineComponent({
-  mounted() {
-    console.log('fuck')
-  },
-})
-</script>
+.management-page {
+  @apply w-screen h-screen justify-center text-white;
+}
+</style>
